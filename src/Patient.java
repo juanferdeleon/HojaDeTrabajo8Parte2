@@ -9,9 +9,18 @@ public class Patient implements Comparable<Patient> {
     String sympoms = "";
     String eCode = "";
 
+    /**
+     * Constructor
+     */
     Patient(){
     }
 
+    /**
+     * Constructor
+     * @param name
+     * @param symptoms
+     * @param eCode
+     */
     Patient(String name, String symptoms, String eCode){
         setName(name);
         setSympoms(symptoms);
